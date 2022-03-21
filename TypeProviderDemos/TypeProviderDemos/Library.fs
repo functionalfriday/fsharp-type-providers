@@ -2,10 +2,6 @@
 
 open FSharp.Data.JsonProvider
 
-module Say =
-    let hello =
-        "Hello World"
-        
 module Demo1 =
     // target type
     type Person = { Name: string; Age: int }
