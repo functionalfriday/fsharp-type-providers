@@ -4,6 +4,11 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TypeProviderDemos.Tests", "
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TypeProviderDemos", "TypeProviderDemos\TypeProviderDemos.fsproj", "{73461F8A-6F36-4717-A45C-E759CA27B782}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{5E2B73E1-1FAE-45C5-AFC9-ED3C89028371}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
