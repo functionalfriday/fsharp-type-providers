@@ -1,13 +1,14 @@
 module Tests
 
+open Swensen.Unquote
 open Xunit
 open TypeProviderDemos
 
 [<Fact>]
 let ``My test`` () =
-    Assert.True(true)
+    true =! true
     
 [<Fact>]
 let ``Can call other dll`` () =
     let result = Say.hello
-    Assert.Equal("Hello World", result)
+    result =! "Hello World"
